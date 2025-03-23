@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Button from "./Button";
 
 const FutureSection = () => {
     return (
@@ -33,27 +33,20 @@ const FutureSection = () => {
                                     </svg>
                                 </button>
                             </div>
-
-                            {/* Future tag */}
-                            <div className="absolute bottom-4 right-4">
-                                <div className="bg-[#36c5f0] text-white px-4 py-2 rounded font-medium">
-                                    FUTURE
-                                </div>
-                            </div>
                         </div>
                     </div>
 
                     {/* Right side - Text content */}
                     <div className="space-y-6">
-                        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900">
+                        <h2 className="text-3xl sm:text-3xl font-bold text-gray-900">
                             Now is your moment to build a better tomorrow
                         </h2>
                         <p className="text-xl text-gray-600">
-                            We've seen what the future can be. Now it's time to decide what it will be.
+                            We&apos;ve seen what the future can be. Now it&apos;s time to decide what it will be.
                         </p>
-                        <button className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-700 hover:bg-purple-800 transition-colors">
+                        <Button variant="secondary">
                             WATCH VIDEO
-                        </button>
+                        </Button>
                     </div>
                 </div>
             </div>

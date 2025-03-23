@@ -4,7 +4,7 @@ import Image from 'next/image';
 // Define button variants and their corresponding styles
 const variants = {
     primary: 'bg-purple-700 text-white hover:bg-purple-800',
-    secondary: 'text-gray-700 border border-purple-700 hover:bg-purple-200',
+    secondary: 'text-gray-700 border border-purple-700 hover:bg-purple-200 text-purple-800',
 };
 
 interface ButtonProps {
