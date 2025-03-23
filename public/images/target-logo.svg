@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="25" cy="20" r="15" fill="#CC0000" />
+    <circle cx="25" cy="20" r="10" fill="white" />
+    <circle cx="25" cy="20" r="5" fill="#CC0000" />
+    <text x="45" y="25" font-family="Arial" font-size="15" font-weight="bold" fill="#000">Target</text>
+</svg>
